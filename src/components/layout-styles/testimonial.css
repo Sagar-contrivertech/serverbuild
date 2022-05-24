@@ -1,0 +1,67 @@
+.test-title{
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 152.667px;
+  line-height: 229px;
+
+  background: linear-gradient(181.94deg, #C8D4FF 25.97%, rgb(254 254 254 / 0%) 72.05%, rgb(254 254 254 / 0%) 10.56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.test-subtitle{
+  text-transform: uppercase;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  /* identical to box height, or 109% */
+  color:  var(--lightred);
+  margin-top: -75px;
+}
+
+.test-body{
+  max-width: 617px;
+  /* min-height: 615px; */
+  padding: 170px 0;
+}
+
+.test-quotes{
+  top:90px;
+}
+
+.test-message{
+  font-family: Poppins;
+  font-size: 26px;
+  /* max-width: 611px; */
+  text-align: center;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
